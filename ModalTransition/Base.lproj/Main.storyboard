@@ -26,7 +26,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="woE-4B-kBk" kind="presentation" id="TTY-2j-3AO"/>
+                                    <segue destination="woE-4B-kBk" kind="custom" identifier="custom" customClass="CustomSegue" customModule="ModalTransition" customModuleProvider="target" id="TTY-2j-3AO"/>
                                 </connections>
                             </button>
                         </subviews>

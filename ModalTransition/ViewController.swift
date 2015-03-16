@@ -11,7 +11,14 @@ import UIKit
 class FirstViewController: UIViewController {
 
     @IBAction func exit(segue: UIStoryboardSegue!) {}
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let identifier = segue.identifier {
+            if identifier == "custom" {
+                println("\(identifier): \(segue)")
+            }
+        }
+    }
 }
 
 class SecondViewController: UIViewController {
